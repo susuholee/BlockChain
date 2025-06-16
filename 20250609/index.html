@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function Foo (a, b) {
+        console.log(this);
+        return [a, b];
+    }
+
+    // call(obj, a, b) {
+    //     this = obj
+    //     return this.method(a, b)
+    // }
+
+
+    // call
+    const foo = Foo.call({name : "soon"}, 1, 2); // 바인드 하고 함수 실행 첫번째 인자로 전달한 객체를 바인드 한다. 두번재 이후부터 매개변수로 전달 순서대로
+    console.log("1231312",foo);
+    // 
+</script>
+</html>
