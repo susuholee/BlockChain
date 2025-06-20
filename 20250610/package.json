@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/merkle": "^0.6.4",
+    "crypto-js": "^4.2.0",
+    "merkle": "^0.6.0"
+  }
+}
